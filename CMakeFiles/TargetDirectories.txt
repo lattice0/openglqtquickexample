@@ -1,0 +1,4 @@
+/home/lz/kejk/CMakeFiles/rebuild_cache.dir
+/home/lz/kejk/CMakeFiles/app.dir
+/home/lz/kejk/CMakeFiles/edit_cache.dir
+/home/lz/kejk/CMakeFiles/app_autogen.dir
