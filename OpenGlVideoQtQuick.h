@@ -21,6 +21,8 @@ public:
     OpenGlVideoQtQuickRenderer() {        
     }
     ~OpenGlVideoQtQuickRenderer();
+    QMatrix4x4 qQuickVideoMatrix;
+
 
 
 public slots:
@@ -29,7 +31,7 @@ public slots:
 private:
     QOpenGLShaderProgram* program;
     GLuint unis[3] = {0};
-    GLuint texs[3] = { 0 };
+    GLuint texs[3] = {0};
     unsigned char *datas[3] = { 0 };
     bool firstRun = true;
     //TODO: make this variable according to video data
@@ -43,6 +45,8 @@ class OpenGlVideoQtQuick : public QQuickItem
 
 public:
     OpenGlVideoQtQuick();
+    QMatrix4x4 getModelMatrix();
+
 
 private slots:
     void handleWindowChanged(QQuickWindow *win);

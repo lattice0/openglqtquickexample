@@ -9,9 +9,10 @@ const char *vString2 = GET_STR(
     attribute vec4 vertexIn;
     attribute vec2 textureIn;
     varying vec2 textureOut;
+    uniform mat4 u_transform;   
     void main(void)
     {
-        gl_Position = vertexIn;
+        gl_Position = u_transform * vertexIn;
         textureOut = textureIn;
     }
 );
@@ -56,6 +57,21 @@ void OpenGlVideoQtQuick::handleWindowChanged(QQuickWindow *win)
     }
 }
 
+QMatrix4x4 OpenGlVideoQtQuick::getModelMatrix() {
+    QMatrix4x4 result;
+
+    // Compose model matrix from our transform properties in the QML
+    QQmlListProperty<QQuickTransform> transformations = transform();
+    const int count = transformations.count(&transformations);
+    for (int i=0; i<count; i++) {
+        QQuickTransform *transform = transformations.at(&transformations, i);
+        transform->applyTo(&result);
+    }
+
+    return result;
+}
+
+
 void OpenGlVideoQtQuick::update()
 {
     if (window())
@@ -76,7 +92,8 @@ void OpenGlVideoQtQuick::sync()
         openGlVideoQtQuickRenderer = new OpenGlVideoQtQuickRenderer();
         connect(window(), &QQuickWindow::beforeRendering, openGlVideoQtQuickRenderer, &OpenGlVideoQtQuickRenderer::render, Qt::DirectConnection);
         connect(window(), &QQuickWindow::afterRendering, this, &OpenGlVideoQtQuick::update, Qt::DirectConnection);
-    }
+    } 
+    this->openGlVideoQtQuickRenderer->qQuickVideoMatrix = getModelMatrix();
 }
 
 static const GLfloat ver[] = {
@@ -112,6 +129,8 @@ void OpenGlVideoQtQuickRenderer::render()
         glGenTextures(3, texs);//TODO: ERASE THIS WITH glDeleteTextures
     }
     program->bind();
+    program->setUniformValue("u_transform", this->qQuickVideoMatrix);
+
 
     //glViewport(50, 50, 50, 50);
 
