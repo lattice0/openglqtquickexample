@@ -62,28 +62,28 @@ qrc_qml.cpp: qml.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lz/kejk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_qml.cpp"
 	/usr/lib/x86_64-linux-gnu/qt5/bin/rcc --name qml --output /home/lz/kejk/qrc_qml.cpp /home/lz/kejk/qml.qrc
 
-CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o: OpenGlVideoQtQuick.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lz/kejk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o -c /home/lz/kejk/OpenGlVideoQtQuick.cpp
+CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o: OpenGlBufferQtQuick.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lz/kejk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o -c /home/lz/kejk/OpenGlBufferQtQuick.cpp
 
-CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lz/kejk/OpenGlVideoQtQuick.cpp > CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.i
+CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lz/kejk/OpenGlBufferQtQuick.cpp > CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.i
 
-CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lz/kejk/OpenGlVideoQtQuick.cpp -o CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.s
+CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lz/kejk/OpenGlBufferQtQuick.cpp -o CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.s
 
-CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o.requires:
+CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o.requires:
 
-.PHONY : CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o.requires
+.PHONY : CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o.requires
 
-CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o.provides: CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o.requires
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o.provides.build
-.PHONY : CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o.provides
+CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o.provides: CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o.requires
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o.provides.build
+.PHONY : CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o.provides
 
-CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o.provides.build: CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o
+CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o.provides.build: CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o
 
 
 CMakeFiles/app.dir/main.cpp.o: CMakeFiles/app.dir/flags.make
@@ -160,7 +160,7 @@ CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o.provides.build: CMakeFiles
 
 # Object files for target app
 app_OBJECTS = \
-"CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o" \
+"CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o" \
 "CMakeFiles/app.dir/main.cpp.o" \
 "CMakeFiles/app.dir/qrc_qml.cpp.o" \
 "CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o"
@@ -168,7 +168,7 @@ app_OBJECTS = \
 # External object files for target app
 app_EXTERNAL_OBJECTS =
 
-app: CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o
+app: CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o
 app: CMakeFiles/app.dir/main.cpp.o
 app: CMakeFiles/app.dir/qrc_qml.cpp.o
 app: CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o
@@ -198,7 +198,7 @@ CMakeFiles/app.dir/build: app
 
 .PHONY : CMakeFiles/app.dir/build
 
-CMakeFiles/app.dir/requires: CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o.requires
+CMakeFiles/app.dir/requires: CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o.requires
 CMakeFiles/app.dir/requires: CMakeFiles/app.dir/main.cpp.o.requires
 CMakeFiles/app.dir/requires: CMakeFiles/app.dir/qrc_qml.cpp.o.requires
 CMakeFiles/app.dir/requires: CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o.requires

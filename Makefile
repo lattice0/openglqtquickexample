@@ -136,32 +136,32 @@ app_autogen/fast:
 	$(MAKE) -f CMakeFiles/app_autogen.dir/build.make CMakeFiles/app_autogen.dir/build
 .PHONY : app_autogen/fast
 
-OpenGlVideoQtQuick.o: OpenGlVideoQtQuick.cpp.o
+OpenGlBufferQtQuick.o: OpenGlBufferQtQuick.cpp.o
 
-.PHONY : OpenGlVideoQtQuick.o
+.PHONY : OpenGlBufferQtQuick.o
 
 # target to build an object file
-OpenGlVideoQtQuick.cpp.o:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o
-.PHONY : OpenGlVideoQtQuick.cpp.o
+OpenGlBufferQtQuick.cpp.o:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o
+.PHONY : OpenGlBufferQtQuick.cpp.o
 
-OpenGlVideoQtQuick.i: OpenGlVideoQtQuick.cpp.i
+OpenGlBufferQtQuick.i: OpenGlBufferQtQuick.cpp.i
 
-.PHONY : OpenGlVideoQtQuick.i
+.PHONY : OpenGlBufferQtQuick.i
 
 # target to preprocess a source file
-OpenGlVideoQtQuick.cpp.i:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.i
-.PHONY : OpenGlVideoQtQuick.cpp.i
+OpenGlBufferQtQuick.cpp.i:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.i
+.PHONY : OpenGlBufferQtQuick.cpp.i
 
-OpenGlVideoQtQuick.s: OpenGlVideoQtQuick.cpp.s
+OpenGlBufferQtQuick.s: OpenGlBufferQtQuick.cpp.s
 
-.PHONY : OpenGlVideoQtQuick.s
+.PHONY : OpenGlBufferQtQuick.s
 
 # target to generate assembly for a file
-OpenGlVideoQtQuick.cpp.s:
-	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.s
-.PHONY : OpenGlVideoQtQuick.cpp.s
+OpenGlBufferQtQuick.cpp.s:
+	$(MAKE) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.s
+.PHONY : OpenGlBufferQtQuick.cpp.s
 
 app_autogen/mocs_compilation.o: app_autogen/mocs_compilation.cpp.o
 
@@ -254,9 +254,9 @@ help:
 	@echo "... app"
 	@echo "... edit_cache"
 	@echo "... app_autogen"
-	@echo "... OpenGlVideoQtQuick.o"
-	@echo "... OpenGlVideoQtQuick.i"
-	@echo "... OpenGlVideoQtQuick.s"
+	@echo "... OpenGlBufferQtQuick.o"
+	@echo "... OpenGlBufferQtQuick.i"
+	@echo "... OpenGlBufferQtQuick.s"
 	@echo "... app_autogen/mocs_compilation.o"
 	@echo "... app_autogen/mocs_compilation.i"
 	@echo "... app_autogen/mocs_compilation.s"

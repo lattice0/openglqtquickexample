@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "app_autogen"
   "CMakeFiles/app_autogen.dir/AutogenOldSettings.cmake"
   "qrc_qml.cpp"
-  "CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o"
+  "CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o"
   "CMakeFiles/app.dir/main.cpp.o"
   "CMakeFiles/app.dir/qrc_qml.cpp.o"
   "CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o"

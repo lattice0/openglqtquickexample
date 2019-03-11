@@ -5,7 +5,7 @@ set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/lz/kejk/")
 set(AM_CMAKE_CURRENT_BINARY_DIR "/home/lz/kejk/")
 set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/lz/kejk/app_autogen")
-set(AM_SOURCES "/home/lz/kejk/OpenGlVideoQtQuick.cpp;/home/lz/kejk/main.cpp")
+set(AM_SOURCES "/home/lz/kejk/OpenGlBufferQtQuick.cpp;/home/lz/kejk/main.cpp")
 set(AM_HEADERS "")
 # Qt environment
 set(AM_QT_VERSION_MAJOR "5")

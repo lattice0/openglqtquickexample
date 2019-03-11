@@ -2,20 +2,18 @@
 #include <QApplication>
 #include <QMediaPlayer>
 #include <QPushButton>
-#include <boost/thread.hpp>
-//#include <boost/chrono.hpp>
 
 #include <QGuiApplication>
 
 #include <QtQuick/QQuickView>
 
-#include "OpenGlVideoQtQuick.h"
+#include "OpenGlBufferQtQuick.h"
 
 int main(int argc, char **argv)
 {
     QGuiApplication app(argc, argv);
     QCoreApplication::addLibraryPath("./");
-    qmlRegisterType<OpenGlVideoQtQuick>("OpenGLComponents", 1, 0, "OpenGlVideoQtQuick");
+    qmlRegisterType<OpenGlBufferItem>("OpenGlBufferItem", 1, 0, "OpenGlBufferItem");
 
     QQuickView view;
     view.setResizeMode(QQuickView::SizeRootObjectToView);

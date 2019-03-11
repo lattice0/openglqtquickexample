@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lz/kejk/OpenGlVideoQtQuick.cpp" "/home/lz/kejk/CMakeFiles/app.dir/OpenGlVideoQtQuick.cpp.o"
+  "/home/lz/kejk/OpenGlBufferQtQuick.cpp" "/home/lz/kejk/CMakeFiles/app.dir/OpenGlBufferQtQuick.cpp.o"
   "/home/lz/kejk/app_autogen/mocs_compilation.cpp" "/home/lz/kejk/CMakeFiles/app.dir/app_autogen/mocs_compilation.cpp.o"
   "/home/lz/kejk/main.cpp" "/home/lz/kejk/CMakeFiles/app.dir/main.cpp.o"
   "/home/lz/kejk/qrc_qml.cpp" "/home/lz/kejk/CMakeFiles/app.dir/qrc_qml.cpp.o"

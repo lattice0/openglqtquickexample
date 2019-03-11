@@ -6,41 +6,63 @@
 
 #IncludeRegexTransform: 
 
-/home/lz/kejk/OpenGlVideoQtQuick.cpp
-OpenGlVideoQtQuick.h
-/home/lz/kejk/OpenGlVideoQtQuick.h
-
-/home/lz/kejk/OpenGlVideoQtQuick.h
-QtQuick/QQuickItem
+/home/lz/kejk/OpenGlBufferQtQuick.cpp
+OpenGlBufferQtQuick.h
+/home/lz/kejk/OpenGlBufferQtQuick.h
+QOpenGLFramebufferObjectFormat
 -
-QtGui/QOpenGLShaderProgram
+QRunnable
 -
-QtGui/QOpenGLFunctions
+QEventLoop
 -
-QtQuick/qquickwindow.h
+QNetworkReply
 -
-QtGui/QOpenGLShaderProgram
+QNetworkRequest
 -
-QtGui/QOpenGLContext
+QMutexLocker
 -
-QString
+memory
 -
 iostream
 -
-QTimer
+
+/home/lz/kejk/OpenGlBufferQtQuick.h
+QObject
+-
+QQuickFramebufferObject
+-
+QOpenGLFunctions
+-
+QOpenGLTexture
+-
+QOpenGLShaderProgram
+-
+QQuickWindow
+-
+QThreadPool
+-
+QRunnable
+-
+QMutex
+-
+QNetworkAccessManager
+-
+functional
+-
+boost/thread.hpp
 -
 
-/home/lz/kejk/app_autogen/EWIEGA46WW/moc_OpenGlVideoQtQuick.cpp
-../../OpenGlVideoQtQuick.h
-/home/lz/kejk/OpenGlVideoQtQuick.h
+/home/lz/kejk/app_autogen/EWIEGA46WW/moc_OpenGlBufferQtQuick.cpp
+../../OpenGlBufferQtQuick.h
+/home/lz/kejk/OpenGlBufferQtQuick.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
 /home/lz/kejk/app_autogen/mocs_compilation.cpp
-EWIEGA46WW/moc_OpenGlVideoQtQuick.cpp
-/home/lz/kejk/app_autogen/EWIEGA46WW/moc_OpenGlVideoQtQuick.cpp
+EWIEGA46WW/moc_OpenGlBufferQtQuick.cpp
+/home/lz/kejk/app_autogen/EWIEGA46WW/moc_OpenGlBufferQtQuick.cpp
 
 /home/lz/kejk/main.cpp
 iostream
@@ -51,20 +73,30 @@ QMediaPlayer
 -
 QPushButton
 -
-boost/thread.hpp
--
 QGuiApplication
 -
 QtQuick/QQuickView
 -
-OpenGlVideoQtQuick.h
-/home/lz/kejk/OpenGlVideoQtQuick.h
+OpenGlBufferQtQuick.h
+/home/lz/kejk/OpenGlBufferQtQuick.h
 
 /home/lz/kejk/qrc_qml.cpp
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
 qcoreevent.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QEventLoop
+qeventloop.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags
+qflags.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QIODevice
+qiodevice.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
 qlist.h
@@ -73,6 +105,18 @@ qlist.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins
 qmargins.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaType
+qmetatype.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QMutex
+qmutex.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QMutexLocker
+qmutex.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
 qobject.h
@@ -86,6 +130,10 @@ qrect.h
 qrect.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QRunnable
+qrunnable.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrunnable.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer
 qscopedpointer.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
@@ -98,9 +146,9 @@ qshareddata.h
 qstring.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
-qtimer.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QThreadPool
+qthreadpool.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qthreadpool.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QUrl
 qurl.h
@@ -109,6 +157,10 @@ qurl.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QVector
+qvector.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h
@@ -150,12 +202,6 @@ QtCore/qatomic_bootstrap.h
 QtCore/qatomic_cxx11.h
 -
 QtCore/qatomic_msvc.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h
-QtCore/qglobal.h
--
-QtCore/qnamespace.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
@@ -232,12 +278,28 @@ QtCore/qbytearray.h
 QtCore/qobjectdefs.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcryptographichash.h
+QtCore/qbytearray.h
+-
+QtCore/qobjectdefs.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
 QtCore/qscopedpointer.h
 -
 QtCore/qiodevice.h
 -
 QtCore/qpair.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h
+QtCore/qstring.h
+-
+QtCore/qnamespace.h
+-
+QtCore/qshareddata.h
+-
+limits
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
@@ -572,6 +634,10 @@ QtCore/qglobal.h
 QtCore/qstring.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrunnable.h
+QtCore/qglobal.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
 QtCore/qglobal.h
 -
@@ -698,14 +764,18 @@ QtCore/qscopedpointer.h
 stdio.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
-QtCore/qglobal.h
--
-QtCore/qbasictimer.h
--
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
 QtCore/qobject.h
 -
-chrono
+limits.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qthreadpool.h
+QtCore/qglobal.h
+-
+QtCore/qthread.h
+-
+QtCore/qrunnable.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
@@ -820,9 +890,9 @@ qguiapplication.h
 qmatrix4x4.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix4x4.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QOpenGLContext
-qopenglcontext.h
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglcontext.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QOpenGLFramebufferObjectFormat
+qopenglframebufferobject.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglframebufferobject.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QOpenGLFunctions
 qopenglfunctions.h
@@ -831,6 +901,10 @@ qopenglfunctions.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QOpenGLShaderProgram
 qopenglshaderprogram.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglshaderprogram.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QOpenGLTexture
+qopengltexture.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qopengltexture.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QSurfaceFormat
 qsurfaceformat.h
@@ -1158,6 +1232,16 @@ stdint.h
 inttypes.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglframebufferobject.h
+QtGui/qtguiglobal.h
+-
+QtGui/qopengl.h
+-
+QtGui/qpaintdevice.h
+-
+QtCore/qscopedpointer.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglfunctions.h
 QtGui/qtguiglobal.h
 -
@@ -1180,6 +1264,16 @@ QtGui/qvector3d.h
 QtGui/qvector4d.h
 -
 QtGui/qmatrix4x4.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qopengltexture.h
+QtGui/qtguiglobal.h
+-
+QtGui/qopengl.h
+-
+QtGui/qimage.h
+-
+QtCore/QScopedPointer
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglversionfunctions.h
@@ -1488,6 +1582,50 @@ QtGui/qtguiglobal.h
 QtMultimedia/qtmultimedia-config.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/QNetworkAccessManager
+qnetworkaccessmanager.h
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkaccessmanager.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/QNetworkReply
+qnetworkreply.h
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkreply.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/QNetworkRequest
+qnetworkrequest.h
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkrequest.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/QSslConfiguration
+qsslconfiguration.h
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslconfiguration.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/QSslPreSharedKeyAuthenticator
+qsslpresharedkeyauthenticator.h
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslpresharedkeyauthenticator.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h
+QtNetwork/qtnetworkglobal.h
+-
+QtCore/qiodevice.h
+-
+QtCore/qobject.h
+-
+QtCore/qdebug.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkaccessmanager.h
+QtNetwork/qtnetworkglobal.h
+-
+QtNetwork/qnetworkrequest.h
+-
+QtCore/QVector
+-
+QtCore/QObject
+-
+QtNetwork/QSslConfiguration
+-
+QtNetwork/QSslPreSharedKeyAuthenticator
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkconfiguration.h
 QtNetwork/qtnetworkglobal.h
 -
@@ -1500,6 +1638,20 @@ QtCore/qlist.h
 QtCore/qmetatype.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkreply.h
+QtNetwork/qtnetworkglobal.h
+-
+QtCore/QIODevice
+-
+QtCore/QString
+-
+QtCore/QVariant
+-
+QtNetwork/QNetworkRequest
+-
+QtNetwork/QNetworkAccessManager
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkrequest.h
 QtNetwork/qtnetworkglobal.h
 -
@@ -1510,6 +1662,80 @@ QtCore/QString
 QtCore/QUrl
 -
 QtCore/QVariant
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qssl.h
+QtNetwork/qtnetworkglobal.h
+-
+QtCore/QFlags
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslcertificate.h
+QtNetwork/qtnetworkglobal.h
+-
+QtCore/qnamespace.h
+-
+QtCore/qbytearray.h
+-
+QtCore/qcryptographichash.h
+-
+QtCore/qdatetime.h
+-
+QtCore/qregexp.h
+-
+QtCore/qsharedpointer.h
+-
+QtCore/qmap.h
+-
+QtNetwork/qssl.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslconfiguration.h
+QtNetwork/qtnetworkglobal.h
+-
+QtCore/qshareddata.h
+-
+QtNetwork/qsslsocket.h
+-
+QtNetwork/qssl.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslerror.h
+QtNetwork/qtnetworkglobal.h
+-
+QtCore/qvariant.h
+-
+QtNetwork/qsslcertificate.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslpresharedkeyauthenticator.h
+QtNetwork/qtnetworkglobal.h
+-
+QtCore/QString
+-
+QtCore/QSharedDataPointer
+-
+QtCore/QMetaType
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qsslsocket.h
+QtNetwork/qtnetworkglobal.h
+-
+QtCore/qlist.h
+-
+QtCore/qregexp.h
+-
+QtNetwork/qtcpsocket.h
+-
+QtNetwork/qsslerror.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h
+QtNetwork/qtnetworkglobal.h
+-
+QtNetwork/qabstractsocket.h
+-
+QtCore/qvariant.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h
@@ -1612,6 +1838,10 @@ QtQml/qtqml-config.h
 QtNetwork/qtnetworkglobal.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtQuick/QQuickFramebufferObject
+qquickframebufferobject.h
+/usr/include/x86_64-linux-gnu/qt5/QtQuick/qquickframebufferobject.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtQuick/QQuickItem
 qquickitem.h
 /usr/include/x86_64-linux-gnu/qt5/QtQuick/qquickitem.h
@@ -1619,6 +1849,14 @@ qquickitem.h
 /usr/include/x86_64-linux-gnu/qt5/QtQuick/QQuickView
 qquickview.h
 /usr/include/x86_64-linux-gnu/qt5/QtQuick/qquickview.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtQuick/QQuickWindow
+qquickwindow.h
+/usr/include/x86_64-linux-gnu/qt5/QtQuick/qquickwindow.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtQuick/qquickframebufferobject.h
+QtQuick/QQuickItem
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtQuick/qquickitem.h
 QtQuick/qtquickglobal.h
