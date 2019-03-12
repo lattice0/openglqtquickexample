@@ -1,0 +1,35 @@
+# Meta
+set(AM_MULTI_CONFIG "FALSE")
+set(AM_PARALLEL "4")
+set(AM_VERBOSITY "")
+# Directories
+set(AM_CMAKE_SOURCE_DIR "/home/lz/rrr/DesktopSampleApp/desktop")
+set(AM_CMAKE_BINARY_DIR "/home/lz/rrr/DesktopSampleApp/desktop")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/lz/rrr")
+set(AM_CMAKE_CURRENT_BINARY_DIR "/home/lz/rrr/DesktopSampleApp/desktop/modules/mediaplayer/desktop/orwell_subdir")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "/home/lz/rrr/DesktopSampleApp/desktop/modules/mediaplayer/desktop/orwell_subdir/app_autogen")
+set(AM_INCLUDE_DIR "/home/lz/rrr/DesktopSampleApp/desktop/modules/mediaplayer/desktop/orwell_subdir/app_autogen/include")
+# Files
+set(AM_SOURCES "/home/lz/rrr/OpenGlBufferQtQuick.cpp")
+set(AM_HEADERS "")
+set(AM_SETTINGS_FILE "/home/lz/rrr/DesktopSampleApp/desktop/modules/mediaplayer/desktop/orwell_subdir/CMakeFiles/app_autogen.dir/AutogenOldSettings.txt")
+# Qt
+set(AM_QT_VERSION_MAJOR 5)
+set(AM_QT_MOC_EXECUTABLE "/home/lz/Qt5.11.2/5.11.2/gcc_64/bin/moc")
+set(AM_QT_UIC_EXECUTABLE "/home/lz/Qt5.11.2/5.11.2/gcc_64/bin/uic")
+# MOC settings
+set(AM_MOC_SKIP "/home/lz/rrr/DesktopSampleApp/desktop/modules/mediaplayer/desktop/orwell_subdir/qrc_qml.cpp")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_MULTIMEDIAWIDGETS_LIB;QT_MULTIMEDIA_LIB;QT_NETWORK_LIB;QT_QML_LIB;QT_QUICK_LIB;QT_WIDGETS_LIB")
+set(AM_MOC_INCLUDES "/home/lz/rrr/DesktopSampleApp/desktop/modules/mediaplayer/desktop/orwell_subdir;/home/lz/rrr;/home/lz/Qt5.11.2/5.11.2/gcc_64/include;/home/lz/Qt5.11.2/5.11.2/gcc_64/include/QtWidgets;/home/lz/Qt5.11.2/5.11.2/gcc_64/include/QtGui;/home/lz/Qt5.11.2/5.11.2/gcc_64/include/QtCore;/home/lz/Qt5.11.2/5.11.2/gcc_64/./mkspecs/linux-g++;/home/lz/Qt5.11.2/5.11.2/gcc_64/include/QtMultimedia;/home/lz/Qt5.11.2/5.11.2/gcc_64/include/QtNetwork;/home/lz/Qt5.11.2/5.11.2/gcc_64/include/QtMultimediaWidgets;/home/lz/Qt5.11.2/5.11.2/gcc_64/include/QtQml;/home/lz/Qt5.11.2/5.11.2/gcc_64/include/QtQuick;/usr/include;/usr/include/c++/7;/usr/include/x86_64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "")
+set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD "/usr/bin/c++;-dM;-E;-c;/home/lz/cmake-3.14.0-rc2-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp")
+# UIC settings
+set(AM_UIC_SKIP "/home/lz/rrr/DesktopSampleApp/desktop/modules/mediaplayer/desktop/orwell_subdir/qrc_qml.cpp")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")

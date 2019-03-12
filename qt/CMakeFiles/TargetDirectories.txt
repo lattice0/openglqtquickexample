@@ -1,0 +1,4 @@
+/home/lz/rrr/qt/CMakeFiles/rebuild_cache.dir
+/home/lz/rrr/qt/CMakeFiles/orwell.dir
+/home/lz/rrr/qt/CMakeFiles/edit_cache.dir
+/home/lz/rrr/qt/CMakeFiles/orwell_autogen.dir

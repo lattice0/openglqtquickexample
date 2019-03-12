@@ -1,0 +1,13 @@
+/home/lz/rrr/DesktopSampleApp/desktop/CMakeFiles/rebuild_cache.dir
+/home/lz/rrr/DesktopSampleApp/desktop/CMakeFiles/edit_cache.dir
+/home/lz/rrr/DesktopSampleApp/desktop/modules/mediaplayer/desktop/CMakeFiles/rebuild_cache.dir
+/home/lz/rrr/DesktopSampleApp/desktop/modules/mediaplayer/desktop/CMakeFiles/edit_cache.dir
+/home/lz/rrr/DesktopSampleApp/desktop/lib/CMakeFiles/rebuild_cache.dir
+/home/lz/rrr/DesktopSampleApp/desktop/lib/CMakeFiles/react-native.dir
+/home/lz/rrr/DesktopSampleApp/desktop/lib/CMakeFiles/edit_cache.dir
+/home/lz/rrr/DesktopSampleApp/desktop/lib/CMakeFiles/copy-qmldir.dir
+/home/lz/rrr/DesktopSampleApp/desktop/lib/CMakeFiles/react-native_autogen.dir
+/home/lz/rrr/DesktopSampleApp/desktop/bin/CMakeFiles/rebuild_cache.dir
+/home/lz/rrr/DesktopSampleApp/desktop/bin/CMakeFiles/DesktopSampleApp.dir
+/home/lz/rrr/DesktopSampleApp/desktop/bin/CMakeFiles/edit_cache.dir
+/home/lz/rrr/DesktopSampleApp/desktop/bin/CMakeFiles/DesktopSampleApp_autogen.dir
